@@ -1,0 +1,35 @@
+.container {
+  width: 350px;
+  height: 480px;
+}
+
+.imgContainer {
+  position: relative;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.imgFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  padding: 40px 0px 40px 0px;
+  background-color: rgba(0, 0, 0, 0.644);
+}
+
+.imgFooter p{
+  margin-left: 20px;
+  width: 150px;
+}
+
+.imgFooter svg {
+  margin-right: 20px;
+  color: #ed9542;
+  font-size: 30px;
+}

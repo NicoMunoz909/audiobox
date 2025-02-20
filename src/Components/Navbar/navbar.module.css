@@ -1,0 +1,51 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  box-shadow: 0px 0px 4px 2px black;
+  z-index: 1;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link{
+  position: relative;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; 
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  background-color: #ed9542;
+  transition: width 0.3s ease-in-out;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; 
+  width: 100%;
+  height: 2px; /* Thickness of the underline */
+  background-color: #ed9542;
+  transition: width 0.3s ease-in-out;
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.imgContainer {
+  display: block;
+  width: 600px;
+  height: 300px;
+  flex-shrink: 0;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.container::-webkit-scrollbar {
+  background-color: black;
+  height: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #ed9542;
+  border-radius: 25px;
+  box-shadow: 0px 0px 2px 1px black inset;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  cursor: grab;
+}

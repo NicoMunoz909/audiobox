@@ -1,0 +1,17 @@
+.imgsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.imgContainer {
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+}
+
+.imgContainer img {
+  width: 200px;
+}

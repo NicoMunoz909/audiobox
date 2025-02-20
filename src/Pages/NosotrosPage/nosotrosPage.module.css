@@ -1,0 +1,11 @@
+.header {
+  position: relative;
+  left: -40px;
+  text-transform: uppercase;
+  color: black;
+  width: 800px;
+  background-color: #ed9542;
+  padding: 30px 30px 30px 80px;
+  border-radius: 10px;
+  text-align: right;
+}
