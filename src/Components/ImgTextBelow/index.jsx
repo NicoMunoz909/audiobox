@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./ImgTextBelow.module.css";
+import styles from "./imgTextBelow.module.css";
 import { IoIosArrowDropright } from "react-icons/io";
 
 const ImgTextBelow = ({ pie, link }) => {
