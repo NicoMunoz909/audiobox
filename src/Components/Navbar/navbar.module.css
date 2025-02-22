@@ -11,6 +11,10 @@
   z-index: 1;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .links {
   display: flex;
   align-items: center;

@@ -1,10 +1,18 @@
 import { NavLink } from "react-router-dom";
 import styles from "./navbar.module.css";
+import { useNavigate } from "react-router";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.container}>
-      <img src="/logo_bco_sin_fondo.png" alt="" />
+      <img
+        className={styles.logo}
+        src="/logo_bco_sin_fondo.png"
+        alt=""
+        onClick={() => navigate("/")}
+      />
       <nav className={styles.links}>
         <ul>
           <NavLink
